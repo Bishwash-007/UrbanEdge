@@ -28,13 +28,13 @@ Ride Booking App
 Clone the project
 
 ```bash
-  git clone https://github.com/bishwash-007/rides.git
+  git clone https://github.com/Bishwash-007/UrbanEdge.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd UrbanEdge
 ```
 
 Install dependencies
@@ -73,7 +73,7 @@ _STRIPE_SECRET_KEY=
 
 ## Feedback
 
-If you have any feedback, please reach out to us at fake@fake.com
+If you have any feedback, please reach out to me at cyborgnotpyscho@gmail.com
 
 
 ## Badges
