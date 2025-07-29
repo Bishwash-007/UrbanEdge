@@ -116,7 +116,6 @@ const Home = () => {
             </View>
 
             <GoogleTextInput
-              icon={icons.search}
               containerStyle="bg-white shadow-md shadow-neutral-300"
               handlePress={handleDestinationPress}
             />

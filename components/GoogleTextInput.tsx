@@ -4,15 +4,14 @@ import { GooglePlacesAutocomplete } from "react-native-google-places-autocomplet
 import { icons } from "@/constants";
 import { GoogleInputProps } from "@/types/type";
 
-const googlePlacesApiKey = process.env.EXPO_PUBLIC_PLACES_API_KEY;
-
 const GoogleTextInput = ({
-  icon,
   initialLocation,
   containerStyle,
   textInputBackgroundColor,
   handlePress,
 }: GoogleInputProps) => {
+  let googlePlacesApiKey = process.env.EXPO_PUBLIC_PLACES_API_KEY;
+  console.log(googlePlacesApiKey);
   return (
     <View className={`relative z-50 ${containerStyle} px-4`}>
       <GooglePlacesAutocomplete
@@ -65,7 +64,7 @@ const GoogleTextInput = ({
         renderLeftButton={() => (
           <View className="pl-4 pr-2 justify-center items-center">
             <Image
-              source={icon || icons.search}
+              source={icons.search}
               className="w-6 h-6"
               resizeMode="contain"
             />
