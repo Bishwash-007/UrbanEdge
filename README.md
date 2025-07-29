@@ -1,5 +1,5 @@
 
-# Rides
+# UrbanEdge
 
 Ride Booking App
 
